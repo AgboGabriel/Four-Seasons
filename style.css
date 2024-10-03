@@ -1,0 +1,180 @@
+/* font styling for header */
+/* .noto-serif-<uniquifier> {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  } */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Serif", serif;
+    
+}
+.titl-name{
+    font-family: "Noto Serif", serif;
+    font-weight: bold;
+    
+}
+.display-position{
+    display: flex;
+    justify-content: flex-end;
+    
+    
+    
+}
+.color{
+    background-color: #B3C8CF;
+}
+
+
+.title-position{
+    position: relative;
+}
+
+
+.text{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.Hero-message{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    font-family: "Noto Serif", serif;
+    color: white;
+}
+.text h2{
+    font-size: 4rem;
+    
+}
+.button{
+    position: absolute;
+    top: 120%;
+    left: 10%;
+}
+.features-prelude{
+    text-align: center;
+    padding-top:80px ;
+    padding-bottom: 50px;
+}
+
+.features-prelude p{
+    font-family: "Noto Serif", serif;
+    width: 50%;
+    /* padding-left: 50%; */
+    margin-left: 25%;
+}
+
+.Features{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.first-column{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    
+    
+}
+.first-column img{
+    width: 100%;
+    height: auto;
+}
+
+.second-column{
+    background-color: #B3C8CF;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: span 1;
+    
+}
+.second-column-inner{
+    display:flex;
+    gap:20px;
+    justify-content: center;
+    align-items:center ;
+    margin-left: 10px;
+    height: 30%; 
+
+    
+}
+
+
+.second-column-inner i,p{
+
+    align-self: center;
+    height: 10%; 
+
+}
+.Third-column{
+    text-align: center;
+    background-color: #F1EEDC;
+    grid-row: span 3;
+}
+.third-column-inner{
+    padding: 20px;
+}
+.fourth-column img{
+    width: 100%;
+    height: auto;
+}
+@media (max-width:1000px ) {
+    .Features{
+        display:block;
+       
+        justify-content: center;
+        align-items:center ;
+        /* margin-left: 10px; */
+       width: 100%;
+    
+        
+    }
+
+    .Third-column{
+        padding: 30px;
+    }
+    
+    .third-column-inner i,p{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
